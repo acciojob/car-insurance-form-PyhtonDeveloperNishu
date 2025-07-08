@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <form method="">
+    <form method="post">
 		<label for="name">Name</label>
 	<input id="name" type="text" required name="name">
 	<br><br>
@@ -15,9 +15,10 @@
 	<input id="email" type="email" required name="email">
 	<br><br>
 	<label for="gender">Gender</label>
-	<input type="radio" name="gender" value="male" required>
+		<br>
+	<input type="radio" name="gender" value="male" required>Male
 	<br>
-	<input type="radio" name="gender" value="female" required>
+	<input type="radio" name="gender" value="female" required>Female
 	   <br><br>
 		<label for="cars">Car Brands</label>
 		<select name="cars" multiple id="cars">
@@ -28,6 +29,7 @@
 		<br><br>
 		<label for="carage">Car Age</label>
 		<input type="number" id="carage" required name="age">
+		<br><br>
 		<label for="dop">Date of Purchase</label>
 		<input type="date" id="dop" required name="dop">
 		<br><br>
